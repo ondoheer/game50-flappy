@@ -45,9 +45,9 @@ function ScoreState:render()
    
     if self.score < 5 and self.score > 0 then
         self.award = achievements["star"]
-    elseif self.score < 10 and self.score > 5 then
+    elseif self.score < 10 and self.score >= 5 then
         self.award = achievements["medal"]
-    elseif self.score > 10 then
+    elseif self.score >= 10 then
         self.award = achievements["trophy"]
     end
     
