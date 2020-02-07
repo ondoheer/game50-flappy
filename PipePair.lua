@@ -25,7 +25,7 @@ function PipePair:init(y)
 
     -- size of the gap between pipes
     self.gap_height = math.random( 1,9 ) *5 + 85
-    print(self.gap_height)
+    
 
     -- instantiate two pipes that belong to this pair
     self.pipes = {
